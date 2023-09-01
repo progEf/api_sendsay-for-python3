@@ -5,8 +5,8 @@ from copy import copy
 from time import sleep
 import logging
 
-from .exceptions import SendsayAPIError
-from .version import __version__
+from .exceptions import SendsayAPIError # Изменить 
+from .version import __version__        # Изменить  
 
 DEFAULT_API_URL = 'https://api.sendsay.ru'
 MAX_ATTEMPTS_REDIRECT = 10
